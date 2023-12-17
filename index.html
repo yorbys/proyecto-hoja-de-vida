@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>hoja de vida, yorbys</title>
+        <link rel="stylesheet" href="style.css"
     </head>
 
     <body>
@@ -14,7 +15,8 @@
         <h3> <a href="https://github.com/yorbys"> GitHub </a> </h3>
         <h3> <a href="https://www.linkedin.com/in/yorbys-pe%C3%B1aloza-55a68b277/?trk=nav_responsive_tab_profile_pic&originalSubdomain=co">linkedIn</a></h3>
 
-        <h1>experiencia</h1>
+        <section>
+            <h1>experiencia</h1>
         <li>
             <ul>EMPRESA: Sigma <br>
                 CARGO: Desarrollador Javascript
@@ -29,8 +31,10 @@
                 CARGO: Desarrollador Backend
             </ul>
         </li>
+        </section>
 
-        <h1>HABILIDADES</h1>
+        <section>
+            <h1>HABILIDADES</h1>
         <table border="1">
             <tr> 
                 <td>HABILIDADES TECNICAS</td>
@@ -61,10 +65,12 @@
                 <td>GitHub</td>
             </tr>
           </table>
+        </section>
 
           <!--separación -->
           
-          <h1>INTERESES</h1>
+          <section>
+            <h1>INTERESES</h1>
            <table border="1">
              <tr>
                 <td>Aplicaciones mobiles</td>
@@ -79,14 +85,24 @@
                 <td>Frameworks y librerías</td>
             </tr>
                 </table>
-
-                <p>formularios de contacto</p>
+          </section>
+                
+                <section>
+                    <p>formularios de contacto</p>
                 <form>
-                    <label></label>
-                    <input type="email" value="email" /><br>
-                </form> 
-                <textarea name="textarea" id="text" cols="30" rows="10">redacte un texto</textarea> <br>
+                    <label>Email:</label>
+                    <input type="email" value="" />
+                    <br>
+                 <label>Mensaje:</label>
+                <textarea name="textarea" id="text" cols="30" rows="10">redacte un texto</textarea> 
+                <br>
                 <input type="submit" value="enviar" />
+                </form>
+                </section>
+                
 
+                <footer>
+                    © 2023 Yorbys Peñaloza. Todos los derechos reservados.
+                </footer>
 </body>
 </html>
